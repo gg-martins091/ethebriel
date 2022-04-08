@@ -1,0 +1,15 @@
+{
+  "name": "ethebriel",
+  "version": "1.0.0",
+  "description": "ethebriel is a learning project about ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc index.ts && NODE_OPTIONS=--no-warnings node index.js"
+  },
+  "author": "gabriel gomes martins",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.23"
+  }
+}
