@@ -1,10 +1,13 @@
 import { Blob } from "buffer";
 
+// This was inspired by ethereumjs implementation
 export type Encodable = string | List; // | number;
 
 // Use interface extension instead of type alias to
 // make circular declaration possible.
 export interface List extends Array<Encodable> {}
+
+// end This was inspired by ethereumjs implementation
 
 function int_size(i: number): number {
   for (let size = 1; ; size++) {
